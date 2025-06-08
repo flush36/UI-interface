@@ -5,6 +5,6 @@ O objetivo principal é aplicar conceitos de design de interface, usabilidade e 
 
 ## 📐 Wireframe
 
-O wireframe deste projeto foi criado no Miro e pode ser acessado no link abaixo:
+O wireframe deste projeto foi criado no Miro, utilizando alguns modelos como base a partir do https://unsplash.com/pt-br, e pode ser acessado no link abaixo:
 
 👉 [Acessar Wireframe no Miro](https://miro.com/app/board/uXjVIqk-e7k=/)
