@@ -13,9 +13,30 @@
 body {
     font-family: var(--fonte-secundaria);
     font-size: 20px;
-    margin: 1em;
     color: var(--preto-titulo);
     background-color: var(--fundo-da-aplicacao);
+}
+
+section {
+    padding: 1em 10%;
+}
+
+header {
+    padding: 1em 10%;
+    background-color: var(--preto-titulo);
+    color: var(--fundo-da-aplicacao);
+}
+
+a {
+    color: var(--fundo-da-aplicacao);
+}
+
+a:hover {
+    color: var(--azul);
+}
+
+a:active {
+    color: var(--laranja);
 }
 
 h3 {
@@ -24,7 +45,7 @@ h3 {
 
 h2 {
     font-size: 32px;
-    padding: 1em;
+    padding-bottom: 1em;
 }
 
 * {
@@ -35,6 +56,10 @@ h2 {
 
 .conteudo-home img {
     width: 100%;
+}
+
+.conteudo-projetos p {
+    padding-bottom: 1em;
 }
 
 .projetos-lista {
@@ -63,6 +88,7 @@ h2 {
 
 .conteudo-projetos {
     text-align: center;
+    background-color: var(--azul-claro);
 }
 
 .projetos-lista li {
@@ -95,6 +121,67 @@ h2 {
     width: 40px;
 }
 
+.conteudo-formulario {
+    background-color: var(--azul-claro);
+
+}
+
+form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    font-weight: 500;
+    padding-top: 1em;
+}
+
+input,
+textarea {
+    padding: 1em 1em;
+    border: none;
+    border-radius: 14px;
+}
+
+textarea {
+    height: 200px;
+}
+
+button {
+    display: block;
+    background-color: var(--azul-turquesa);
+    color: var(--fundo-da-aplicação);
+    font-weight: 500;
+    border: none;
+    padding: 1em 2em;
+    font-family: var(--fonte-principal);
+    border-radius: 14px;
+    margin-top: 2em;
+    width: 50%;
+}
+
+.lista-formulario {
+    list-style-type: none;
+}
+
+.lista-formulario li {
+    padding-top: 1em;
+}
+
+.info-titulo {
+    font-weight: 500;
+}
+
+.formulario-container {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
 @media screen and (min-width: 720px) {
     .conteudo-home img {
         width: 100%;
@@ -102,7 +189,7 @@ h2 {
 
     .cabecalho-lista {
         display: flex;
-        gap: 1em;
+        gap: 3em;
         list-style-type: none;
     }
 
@@ -124,7 +211,7 @@ h2 {
 
     .conteudo-home img {
         width: 500px;
-        height: 700px;
+        height: 560px;
         object-fit: cover;
     }
 
